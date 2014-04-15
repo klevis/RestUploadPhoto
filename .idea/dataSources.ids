@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source source="LOCAL" name="MySQL - pm@localhost" uuid="f26d5803-9f98-4ced-8ad0-950c6226a94e">
+    <database-info product="MySQL" version="5.6.11" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.29 ( Revision: alexander.soklakov@oracle.com-20140120140810-s44574olh90i6i4l )">
+      <extra-name-characters>#@</extra-name-characters>
+      <identifier-quote-string>`</identifier-quote-string>
+    </database-info>
+    <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower"/>
+    <schema name="" catalog="pm"/>
+    <table name="photo" schema="" catalog="pm" type="TABLE">
+      <column name="id" sqlType="INT" length="10" precision="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="photo" sqlType="BLOB" length="65535" precision="0" nullable="true" jdbcType="-4"/>
+      <column name="placeID" sqlType="INT" length="10" precision="0" nullable="true" jdbcType="4"/>
+      <primary-key name="PRIMARY" columns="id"/>
+      <foreign-key name="placeId" columns="placeID" ref-table="place" ref-schema="" ref-catalog="pm" ref-columns="id" update-rule="3" delete-rule="3" deferrability="2"/>
+      <index name="placeId_idx" unique="false" columns="placeID"/>
+    </table>
+    <table name="place" schema="" catalog="pm" type="TABLE">
+      <column name="id" sqlType="INT" length="10" precision="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="longitud" sqlType="DOUBLE" length="22" precision="0" nullable="true" jdbcType="8"/>
+      <column name="latitude" sqlType="DOUBLE" length="22" precision="0" nullable="true" jdbcType="8"/>
+      <column name="zoneID" sqlType="DOUBLE" length="22" precision="0" nullable="true" jdbcType="8"/>
+      <column name="description" sqlType="VARCHAR" length="160" precision="0" nullable="true" jdbcType="12"/>
+      <column name="note" sqlType="LONGTEXT" length="2147483647" precision="0" nullable="true" jdbcType="-1"/>
+      <column name="adresa" sqlType="TEXT" length="65535" precision="0" nullable="true" jdbcType="-1"/>
+      <column name="qyteti" sqlType="VARCHAR" length="45" precision="0" nullable="true" jdbcType="12"/>
+      <column name="userID" sqlType="INT" length="10" precision="0" nullable="true" jdbcType="4"/>
+      <primary-key name="PRIMARY" columns="id"/>
+      <foreign-key name="userid" columns="userID" ref-table="user" ref-schema="" ref-catalog="pm" ref-columns="id" update-rule="3" delete-rule="3" deferrability="2"/>
+      <exported-key name="placeId" table="photo" schema="" catalog="pm" columns="placeID"/>
+      <index name="userid_idx" unique="false" columns="userID"/>
+    </table>
+    <table name="user" schema="" catalog="pm" type="TABLE">
+      <column name="id" sqlType="INT" length="10" precision="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="email" sqlType="VARCHAR" length="45" precision="0" nullable="true" jdbcType="12"/>
+      <column name="androidId" sqlType="VARCHAR" length="160" precision="0" nullable="true" jdbcType="12"/>
+      <column name="name" sqlType="VARCHAR" length="45" precision="0" nullable="true" jdbcType="12"/>
+      <column name="surname" sqlType="VARCHAR" length="45" precision="0" nullable="true" jdbcType="12"/>
+      <column name="mobileNo" sqlType="VARCHAR" length="45" precision="0" nullable="true" jdbcType="12"/>
+      <primary-key name="PRIMARY" columns="id"/>
+      <exported-key name="userid" table="place" schema="" catalog="pm" columns="userID"/>
+      <index name="androidId_UNIQUE" unique="true" columns="androidId"/>
+      <index name="email_UNIQUE" unique="true" columns="email"/>
+    </table>
+  </data-source>
+</component>
