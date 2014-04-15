@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="afaad2ce-46b6-4469-940b-7acbcb37b88b" name="Default" comment="" />
+    <list default="true" id="afaad2ce-46b6-4469-940b-7acbcb37b88b" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/as/upload/photo/client/ClientCommunicationController.java" afterPath="$PROJECT_DIR$/src/main/java/com/as/upload/photo/client/ClientCommunicationController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="UploadPhoto.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -67,12 +71,12 @@
       <file leaf-file-name="ClientCommunicationController.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/as/upload/photo/client/ClientCommunicationController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="140" column="16" selection-start="4596" selection-end="4596" vertical-scroll-proportion="2.6429367" vertical-offset="0" max-vertical-offset="5868">
+            <state line="29" column="0" selection-start="915" selection-end="915" vertical-scroll-proportion="0.39599556" vertical-offset="166" max-vertical-offset="5886">
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#3983#3999#0" expanded="true" />
-                <element signature="e#4335#4342#0" expanded="true" />
-                <element signature="e#4946#4953#0" expanded="true" />
+                <element signature="e#3984#4000#0" expanded="true" />
+                <element signature="e#4336#4343#0" expanded="true" />
+                <element signature="e#4947#4954#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -84,6 +88,9 @@
     <FindUsagesManager>
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
@@ -336,7 +343,7 @@
       </profile-state>
     </entry>
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -414,14 +421,6 @@
               <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -442,36 +441,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="UploadPhoto" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="UploadPhoto" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="client" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -523,7 +492,7 @@
     <property name="OverrideImplement.combined" value="true" />
     <property name="OverrideImplement.overriding.sorted" value="false" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="options.lastSelected" value="MavenSettings" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
@@ -966,12 +935,12 @@
       <workItem from="1397487905393" duration="3525000" />
       <workItem from="1397545697224" duration="15859000" />
       <workItem from="1397567088179" duration="4961000" />
-      <workItem from="1397572584761" duration="2964000" />
+      <workItem from="1397572584761" duration="3191000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27309000" />
+    <option name="totallyTimeSpent" value="27536000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1071,9 +1040,9 @@
         <state line="74" column="38" selection-start="2516" selection-end="2516" vertical-scroll-proportion="0.0" vertical-offset="1332" max-vertical-offset="4824">
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3983#3999#0" expanded="true" />
-            <element signature="e#4335#4342#0" expanded="true" />
-            <element signature="e#4946#4953#0" expanded="true" />
+            <element signature="e#3984#4000#0" expanded="true" />
+            <element signature="e#4336#4343#0" expanded="true" />
+            <element signature="e#4947#4954#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1274,12 +1243,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/as/upload/photo/client/ClientCommunicationController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="140" column="16" selection-start="4596" selection-end="4596" vertical-scroll-proportion="2.6429367" vertical-offset="0" max-vertical-offset="5868">
+        <state line="29" column="0" selection-start="915" selection-end="915" vertical-scroll-proportion="0.39599556" vertical-offset="166" max-vertical-offset="5886">
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3983#3999#0" expanded="true" />
-            <element signature="e#4335#4342#0" expanded="true" />
-            <element signature="e#4946#4953#0" expanded="true" />
+            <element signature="e#3984#4000#0" expanded="true" />
+            <element signature="e#4336#4343#0" expanded="true" />
+            <element signature="e#4947#4954#0" expanded="true" />
           </folding>
         </state>
       </provider>

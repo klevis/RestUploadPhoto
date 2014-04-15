@@ -27,6 +27,7 @@ import java.util.List;
 
 public class ClientCommunicationController {
 
+
     //for printing or not in client
     public static final boolean DEBUG = false;
 
