@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="afaad2ce-46b6-4469-940b-7acbcb37b88b" name="Default" comment="delete not needed files">
+    <list default="true" id="afaad2ce-46b6-4469-940b-7acbcb37b88b" name="Default" comment="">
       <change type="DELETED" beforePath="C:\RestUploadPhoto\.idea\artifacts\UploadPhoto_war.xml" afterPath="" />
       <change type="DELETED" beforePath="C:\RestUploadPhoto\.idea\artifacts\UploadPhoto_war_exploded.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\RestUploadPhoto\.idea\compiler.xml" afterPath="" />
       <change type="DELETED" beforePath="C:\RestUploadPhoto\.idea\copyright\profiles_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\RestUploadPhoto\.idea\encodings.xml" afterPath="" />
       <change type="DELETED" beforePath="C:\RestUploadPhoto\.idea\libraries\Maven__aopalliance_aopalliance_1_0.xml" afterPath="" />
       <change type="DELETED" beforePath="C:\RestUploadPhoto\.idea\libraries\Maven__commons_codec_commons_codec_1_6.xml" afterPath="" />
       <change type="DELETED" beforePath="C:\RestUploadPhoto\.idea\libraries\Maven__commons_collections_commons_collections_20040616.xml" afterPath="" />
@@ -32,18 +30,14 @@
       <change type="DELETED" beforePath="C:\RestUploadPhoto\.idea\libraries\Maven__org_springframework_spring_tx_3_2_8_RELEASE.xml" afterPath="" />
       <change type="DELETED" beforePath="C:\RestUploadPhoto\.idea\libraries\Maven__org_springframework_spring_web_3_2_8_RELEASE.xml" afterPath="" />
       <change type="DELETED" beforePath="C:\RestUploadPhoto\.idea\libraries\Maven__org_springframework_spring_webmvc_3_2_8_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\RestUploadPhoto\.idea\misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\RestUploadPhoto\.idea\modules.xml" afterPath="" />
       <change type="DELETED" beforePath="C:\RestUploadPhoto\.idea\runConfigurations\AppTests.xml" afterPath="" />
       <change type="DELETED" beforePath="C:\RestUploadPhoto\.idea\scopes\scope_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\RestUploadPhoto\.idea\uiDesigner.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\RestUploadPhoto\.idea\vcs.xml" afterPath="" />
       <change type="DELETED" beforePath="C:\RestUploadPhoto\.idea\workspace.xml" afterPath="" />
     </list>
     <ignored path="UploadPhoto.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="afaad2ce-46b6-4469-940b-7acbcb37b88b" time="1409933034419" ignored="false" />
-    <file path="C:/UploadPhoto/.idea/workspace.xml" changelist="afaad2ce-46b6-4469-940b-7acbcb37b88b" time="1409933017677" ignored="false" />
+    <file path="/Dummy.txt" changelist="afaad2ce-46b6-4469-940b-7acbcb37b88b" time="1409933042657" ignored="false" />
+    <file path="C:/UploadPhoto/.idea/workspace.xml" changelist="afaad2ce-46b6-4469-940b-7acbcb37b88b" time="1409933053990" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -950,7 +944,11 @@
       <created>1409932993450</created>
       <updated>1409932993450</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="delete not needed files">
+      <created>1409933044336</created>
+      <updated>1409933044336</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
